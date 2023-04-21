@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "access-key-backend.provider",
+      "type": "com.example.accesskeybackend.props.AccessKeyProviderProps",
+      "sourceType": "com.example.accesskeybackend.props.AccessKeyProviderProps"
+    },
+    {
+      "name": "access-key-backend.security",
+      "type": "com.example.accesskeybackend.props.SecurityProperties",
+      "sourceType": "com.example.accesskeybackend.props.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "access-key-backend.provider.auth-pwd",
+      "type": "java.lang.String",
+      "sourceType": "com.example.accesskeybackend.props.AccessKeyProviderProps"
+    },
+    {
+      "name": "access-key-backend.provider.auth-user",
+      "type": "java.lang.String",
+      "sourceType": "com.example.accesskeybackend.props.AccessKeyProviderProps"
+    },
+    {
+      "name": "access-key-backend.provider.root-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.example.accesskeybackend.props.AccessKeyProviderProps"
+    },
+    {
+      "name": "access-key-backend.security.admin-pwd",
+      "type": "java.lang.String",
+      "sourceType": "com.example.accesskeybackend.props.SecurityProperties"
+    },
+    {
+      "name": "access-key-backend.security.admin-user",
+      "type": "java.lang.String",
+      "sourceType": "com.example.accesskeybackend.props.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
